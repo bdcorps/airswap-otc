@@ -67,7 +67,8 @@
     "jwt-decode": "^2.2.0",
     "locale2": "^2.3.1",
     "lodash": "^4.17.11",
-    "node-sass": "^4.12.0",
+    "node-gyp": "^8.4.1",
+    "node-sass": "^7.0.1",
     "nodemon": "^1.19.1",
     "prettier": "^1.19.1",
     "react": "^17.0.2",
@@ -105,6 +106,6 @@
     "not op_mini all"
   ],
   "engines": {
-    "node": ">=10.18.1"
+    "node": "12.x"
   }
 }
