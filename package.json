@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://trader.airswap.io/",
   "scripts": {
-    "start:dev": "HTTPS=false REACT_APP_PRIVATE_KEY='0x2D8A9870E4BA1755B12A0D2EC8E11955C21D3EAD2D538A0EAD0EBD00F2860BCF' REACT_APP_ENVIRONMENT='development' react-app-rewired start",
+    "start:dev": "HTTPS=false PORT=3000 REACT_APP_PRIVATE_KEY='0x2D8A9870E4BA1755B12A0D2EC8E11955C21D3EAD2D538A0EAD0EBD00F2860BCF' REACT_APP_ENVIRONMENT='development' react-app-rewired start",
     "start:dev-goerli": "HTTPS=false PORT=3000 REACT_APP_PRIVATE_KEY='0x2D8A9870E4BA1755B12A0D2EC8E11955C21D3EAD2D538A0EAD0EBD00F2860BCF' REACT_APP_TEST_NETWORK='5' REACT_APP_ENVIRONMENT='development' react-app-rewired start",
     "start:dev-test": "HTTPS=false PORT=3000 REACT_APP_PRIVATE_KEY='0x2D8A9870E4BA1755B12A0D2EC8E11955C21D3EAD2D538A0EAD0EBD00F2860BCF' REACT_APP_ENVIRONMENT='development' react-app-rewired start",
     "start:prod": "HTTPS=true PORT=3001 REACT_APP_ENVIRONMENT='production' react-app-rewired start",
@@ -52,7 +52,7 @@
     "@types/styled-components": "^4.1.16",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
-    "airswap.js": "bdcorps/airswap.js#1499df18f8ae56eb509000d146daec39d2c1c0c0",
+    "airswap.js": "bdcorps/airswap.js#1d8391d50c46d3d2e981c8da58315e72a7c8b2d3",
     "babel-loader": "8.0.4",
     "babel-plugin-react-intl-auto": "^1.7.0",
     "babel-plugin-transform-remove-console": "^6.9.4",

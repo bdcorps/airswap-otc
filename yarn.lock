@@ -1624,7 +1624,7 @@
   resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.5.0.tgz#0c2caebeff98e10aefa5aef27d7441c7fd18cf5d"
   integrity sha512-rIY/6WPm7T8n3qS2vuHTUBPdXHl+rGxWxW5okDfo9J4Z0+gRRZT0msvUdIJkE4/HS29GUMziwGaaKO2bWONBrg==
 
-"@ethersproject/networks@5.5.2", "@ethersproject/networks@^5.5.0":
+"@ethersproject/networks@5.5.2", "@ethersproject/networks@^5.5.0", "@ethersproject/networks@^5.5.2":
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/@ethersproject/networks/-/networks-5.5.2.tgz#784c8b1283cd2a931114ab428dae1bd00c07630b"
   integrity sha512-NEqPxbGBfy6O3x4ZTISb90SjEDkWYDUbEeIFhJly0F7sZjoQMnj5KYzMSkMkLKZ+1fGpx00EDpHQCy6PrDupkQ==
@@ -2598,14 +2598,15 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-airswap.js@bdcorps/airswap.js#1499df18f8ae56eb509000d146daec39d2c1c0c0:
+airswap.js@bdcorps/airswap.js#1d8391d50c46d3d2e981c8da58315e72a7c8b2d3:
   version "0.2.9"
-  resolved "https://codeload.github.com/bdcorps/airswap.js/tar.gz/1499df18f8ae56eb509000d146daec39d2c1c0c0"
+  resolved "https://codeload.github.com/bdcorps/airswap.js/tar.gz/1d8391d50c46d3d2e981c8da58315e72a7c8b2d3"
   dependencies:
     "@airswap/constants" "^0.3.9"
     "@airswap/light" "^2.2.0"
     "@airswap/metadata" "1.0.1"
     "@airswap/order-utils" "^0.3.20"
+    "@ethersproject/networks" "^5.5.2"
     "@portis/web3" "^2.0.0-beta.16"
     axios "^0.18.0"
     dotenv "^8.2.0"
