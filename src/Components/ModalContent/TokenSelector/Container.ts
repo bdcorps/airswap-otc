@@ -140,6 +140,8 @@ const mapStateToProps = (state: any, ownProps: PassedProps): ReduxProps => {
     },
   ]
 
+  console.log('tokens', allTokens)
+
   return {
     tokenSections,
     tokensByAddress: getTokensByAddress(state),
